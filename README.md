@@ -4,4 +4,4 @@ Author: Luis Gustavo Soares;<br>
 Author: Marco Person Vital.
 <br>
 
-* Agradecimentos ao Prof. Ricardo Sabatine *
+* Agradecimentos ao Prof. Ricardo Sabatine 
