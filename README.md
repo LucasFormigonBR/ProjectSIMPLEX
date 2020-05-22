@@ -1,4 +1,4 @@
 # SistemaSIMPLEX
-Author: Lucas Barboza Formigon Junior;
-Author: Luis Gustavo Soares;
+Author: Lucas Barboza Formigon Junior;<br>
+Author: Luis Gustavo Soares;<br>
 Author: Marco Person Vital.
