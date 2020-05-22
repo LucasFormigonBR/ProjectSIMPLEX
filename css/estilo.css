@@ -1,0 +1,71 @@
+/*
+label.lbl1,  input.inp1 {
+	display: block;
+	float: left;
+}
+
+label.lbl1 {	
+	text-align: right;
+	width: 15%;
+	padding-right: 8%;
+	padding-bottom: 2%;
+}
+
+br {
+	clear: left;
+}
+*/
+
+/*input[type="number"] {
+	width:40px;
+	text-align: right;
+}
+
+fieldset {
+	border: solid 1px #000;
+	padding: 2%;
+}
+*/
+h1{
+top: 178px;
+left: 723px;
+width: 380px;
+height: 74px;
+text-align: center;
+font: Regular 56px/74px Roboto;
+letter-spacing: 0px;
+color: #000000DE;
+opacity: 1;
+}
+p{
+top: 339px;
+left: 687px;
+width: 498px;
+height: 42px;
+text-align: left;
+font: Regular 14px/20px Roboto;
+letter-spacing: 0.25px;
+color: #00000099;
+opacity: 1;
+}
+
+body{
+top: 0px;
+left: 0px;
+width: auto;
+height: auto;
+background: #FCFCFC 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.container{
+top: 310px;
+left: 562px;
+width: 734px;
+height: 462px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 3px #00000033;
+border-radius: 4px;
+opacity: 1;
+}
+

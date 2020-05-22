@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="js/funcoes.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="js/fraction.js" charset="UTF-8"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+	<title>SIMPLEX PO20</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-11">
+				<h1>SIMPLEX PO20</h1>
+				<p>Sistema simplex desenvolvido na disciplina de Pesquisa Operacional 2020</p>
+			</div>
+			<div class="col-md-1" style="float:right;">
+			</div>
+		</div>
+		<form name="form1">
+			<fieldset>
+				<div class="row">
+					<div class="col-md-2">
+						<label for="variaveis" class="lbl1">Número de variáveis de decisão:</label>
+					</div>
+					<div class="col-md-1">
+						<input type="number" class="inp1" size="5%" maxlength="10" id="in1" name="variaveis" value="" min="1" autocomplete="off" autofocus style="height: 28px"/>
+					</div>
+				</div>
+				<br />
+				<div class="row">
+					<div class="col-md-2">
+						<label for="regras" class="lbl1">Número de restrições:</label>
+					</div>
+					<div class="col-md-2">
+						<input type="number" class="inp1" size="5%" maxlength="10" id="in2" name="regras" value="" min="1" autocomplete="off" style="height: 28px" />
+						<br><input type="button" class="inp1 btn btn-primary btn-sm" id="btn1" name="ok" value="Maximizar" onClick="criarForm(variaveis.value,regras.value)"/>
+					</div>
+					<div class="col-md-2">
+						<br><input type="button" class="inp2 btn btn-primary btn-sm" id="btn2" name="ok" value="Minimizar" onClick=""/>
+					</div>
+					
+				</div>
+			</fieldset>
+		</form>
+		
+		<br/>
+		<form action="" method="post" name="form2" id="form2" style="display:none">
+			<p><b>Função objetivo</b></p>
+			<div id="funcObjetivo"></div>
+			<br/>
+			<div class="col-md-2">
+			<label><input type="button" class="btn btn-primary btn-sm" id="btn2" name="calc" value="Resolver" onClick="resolver()" /></label>
+			</div>
+			<div class=col-md-2>
+			<label><input type="reset" class="btn btn-success btn-sm" id="btn3" name="novo" value="Novo" onClick="atualizar()"/></label>
+			</div>
+		</form>
+
+		<div id="tab" style="width: 80%; margin: 0 auto;"></div>
+		<label><input type="hidden" class="btn btn-success btn-sm" id="btn4" name="novo2" value="Novo" onClick="atualizar()"/></label>
+	</div>
+</body>
+</html>
